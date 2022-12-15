@@ -1,8 +1,6 @@
 #include <stdio.h>
 
 int main() {
-   int a,b;
-   scanf("%d%d", &a, &b);
-   printf("%d", a+b);
+   //cho nhap 2 so va tinh tong, xuat ket qua
    return 0;
 }
