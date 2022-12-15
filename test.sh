@@ -1,8 +1,8 @@
 echo "Running tests..."
 echo
 
-output=$(./a.out)
-expected_output="Hello, World!"
+output=$(echo "$1" | ./a.out)
+expected_output="$2"
 
 if [ $? -eq 0 ] ; then
   echo "Pass: Program exited zero"

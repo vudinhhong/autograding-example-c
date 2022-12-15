@@ -1,8 +1,8 @@
 a.out:
-	gcc hello.c
+	gcc bailam.c
 
 clean:
-	rm hello
+	rm bailam
 
 test: a.out
 	bash test.sh
